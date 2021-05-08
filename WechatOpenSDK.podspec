@@ -10,7 +10,7 @@ s.license          = { :type => "MIT", :file => "LICENSE" }
 s.author           = { "WechatOpenSDK" => "WechatOpenSDK@tencent.com" }
 
 
-s.platform         = :ios, '9.0'
+s.platform         = :ios, '11.0'
 
 s.source           = { :git => "https://github.com/KY-zero/WechatOpenSDK.git", :tag => "v1.8.9.0"}
 
@@ -18,10 +18,9 @@ s.source_files     = "OpenSDK1.8.9/*.{h}"
 
 s.vendored_libraries = "OpenSDK1.8.9/*.a"
 
-s.xcconfig         = { 'OTHER_LDFLAGS' => '-ObjC'}
 
 s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation'
 
-s.libraries        = 'sqlite3.0', 'c++'
+ s.libraries           = 'z', 'sqlite3.0', 'c++'
 
 end
