@@ -25,6 +25,7 @@ s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfigurat
 
 s.libraries           = 'z', 'sqlite3.0', 'c++'
 s.xcconfig         = { 'OTHER_LDFLAGS' => '-ObjC'}
-s.requires_arc = true
+s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+s.requires_arc = false
 s.static_framework  =  true
 end
