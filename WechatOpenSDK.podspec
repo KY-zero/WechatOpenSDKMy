@@ -24,6 +24,7 @@ s.vendored_libraries = "OpenSDK1.8.9/*.a"
 s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation'
 
 s.libraries           = 'z', 'sqlite3.0', 'c++'
+s.xcconfig         = { 'OTHER_LDFLAGS' => '-ObjC'}
 s.requires_arc = true
 s.static_framework  =  true
 end
