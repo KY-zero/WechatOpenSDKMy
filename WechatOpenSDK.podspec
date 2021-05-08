@@ -24,11 +24,12 @@ s.vendored_libraries = "OpenSDK1.8.9/*.a"
 
 s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation'
 
-s.libraries           = 'z', 'sqlite3.0', 'c++'
+s.libraries         = 'z', 'sqlite3.0', 'c++'
 
-s.xcconfig         = {'OTHER_LDFLAGS' => '-ObjC'}
-s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-s.user_target_xcconfig  = { 'OTHER_LDFLAGS' => '-force_load ${PODS_ROOT}/libWeChatSDK.a' }
+# s.xcconfig         = {'OTHER_LDFLAGS' => '-ObjC'}
+s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+# s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+# s.user_target_xcconfig  = { 'OTHER_LDFLAGS' => '-force_load ${PODS_ROOT}/libWeChatSDK.a' }
 
 # s.pod_target_xcconfig = {'OTHER_LDFLAGS' => '-all_load'}
 # s.requires_arc = false
