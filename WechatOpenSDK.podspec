@@ -27,7 +27,7 @@ s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfigurat
 s.libraries         = 'z', 'sqlite3.0', 'c++'
 
 # s.xcconfig         = {'OTHER_LDFLAGS' => '-ObjC'}
-s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC','VALID_ARCHS' => 'x86_64 armv7 arm64' }
+s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64','OTHER_LDFLAGS' => '-lObjC' }
 # s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 # s.user_target_xcconfig  = { 'OTHER_LDFLAGS' => '-force_load ${PODS_ROOT}/libWeChatSDK.a' }
 
