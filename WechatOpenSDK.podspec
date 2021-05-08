@@ -3,7 +3,9 @@ s.name             = "WechatOpenSDK"
 s.version          = "1.8.9.0"
 s.summary          = "WechatOpenSDK"
 
-s.description      = "微信支付SDK"
+s.description      = <<-DESC
+微信opensdk不带支付
+DESC
 
 s.homepage         = "https://github.com/KY-zero/WechatOpenSDK.git"
 s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -21,6 +23,6 @@ s.vendored_libraries = "OpenSDK1.8.9/*.a"
 
 s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation'
 
- s.libraries           = 'z', 'sqlite3.0', 'c++'
+s.libraries           = 'z', 'sqlite3.0', 'c++'
 
 end
