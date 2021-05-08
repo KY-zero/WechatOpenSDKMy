@@ -18,14 +18,14 @@ s.source           = { :git => "https://github.com/KY-zero/WechatOpenSDK.git", :
 
 s.source_files     = "OpenSDK1.8.9/*.{h}"
 
-s.vendored_libraries = "OpenSDK1.8.9/*.{a}"
+s.vendored_libraries = "OpenSDK1.8.9/*.a"
 
 
 s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation'
 
 s.libraries           = 'z', 'sqlite3.0', 'c++'
-s.xcconfig         = { 'OTHER_LDFLAGS' => '-ObjC'}
-s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+s.xcconfig         = {'OTHER_LDFLAGS' => '-ObjC'}
+s.pod_target_xcconfig = {'OTHER_LDFLAGS' => '-all_load'}
 s.requires_arc = false
 s.static_framework  =  true
 end
