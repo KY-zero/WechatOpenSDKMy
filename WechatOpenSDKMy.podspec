@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-s.name             = "WechatOpenSDK"
+s.name             = "WechatOpenSDKMy"
 s.version          = "1.8.9.0"
-s.summary          = "WechatOpenSDK"
+s.summary          = "WechatOpenSDKMy"
 
 s.description      = "写着玩的"
 
@@ -9,7 +9,7 @@ s.homepage         = "https://github.com/KY-zero/WechatOpenSDK.git"
 
 s.license          = { :type => "MIT", :file => "LICENSE" }
 
-s.author           = { "WechatOpenSDK" => "WechatOpenSDK@tencent.com" }
+s.author           = { "WechatOpenSDKMy" => "WechatOpenSDK@tencent.com" }
 
 
 s.platform         = :ios, '11.0'
