@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "WechatOpenSDK"
-s.version          = "1.8.9"
+s.version          = "1.8.9.0"
 s.summary          = "WechatOpenSDK"
 
 s.description      = "微信支付SDK"
@@ -12,7 +12,7 @@ s.author           = { "WechatOpenSDK" => "WechatOpenSDK@tencent.com" }
 
 s.platform         = :ios, '9.0'
 
-s.source           = { :git => "https://github.com/KY-zero/WechatOpenSDK.git", :tag => "v1.8.9"}
+s.source           = { :git => "https://github.com/KY-zero/WechatOpenSDK.git", :tag => "v1.8.9.0"}
 
 s.source_files     = "OpenSDK1.8.9/*.{h}"
 
