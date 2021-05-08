@@ -22,6 +22,6 @@ s.xcconfig         = { 'OTHER_LDFLAGS' => '-ObjC'}
 
 s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation'
 
-s.libraries        = 'z', 'sqlite3.0', 'c++'
+s.libraries        = 'sqlite3.0', 'c++'
 
 end
