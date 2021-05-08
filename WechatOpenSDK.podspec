@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "WechatOpenSDK"
-s.version          = "v1.8.9"
+s.version          = "1.8.9"
 s.summary          = "WechatOpenSDK"
 
 s.description      = "微信支付SDK"
