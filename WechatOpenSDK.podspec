@@ -18,7 +18,7 @@ s.source           = { :git => "https://github.com/KY-zero/WechatOpenSDK.git", :
 
 s.source_files     = "OpenSDK1.8.9/*.{h}"
 
-s.vendored_libraries = "OpenSDK1.8.9/*.a"
+s.vendored_libraries = "OpenSDK1.8.9/*.{a}"
 
 
 s.frameworks       = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation'
